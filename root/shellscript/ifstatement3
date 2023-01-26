@@ -1,0 +1,9 @@
+#!/bin/bash
+SPEED=240
+
+if [ $SPEED > 240 ]
+then
+	echo "Speed equal distance / time"
+else 
+	echo "Time equal distance / speed"
+fi

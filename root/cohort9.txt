@@ -1,0 +1,16 @@
+1_file*
+age.c
+age.exe*
+alx-system_engineering-devops/
+cohort9.txt
+file_list.txt
+hello.c
+hello.exe*
+octal
+overflow.c
+overflow.exe*
+overflow2.c
+overflow2.exe*
+REAME.md
+school day/
+time_code/

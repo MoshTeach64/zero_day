@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# This script print world in the terminal
+echo "Hello World!"
+echo "How are you"
+echo "Am fine"
+

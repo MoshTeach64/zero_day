@@ -1,0 +1,10 @@
+total 6
+-rw-r--r-- 1 ADMIN 197121   0 Sep  8 11:44 240
+-rw-r--r-- 1 ADMIN 197121   0 Sep  8 13:32 file.txt
+-rw-r--r-- 1 ADMIN 197121   0 Sep  7 06:57 go-there
+-rwxr-xr-x 1 ADMIN 197121 122 Sep  8 07:06 helloworld2*
+-rwxr-xr-x 1 ADMIN 197121 110 Sep  8 06:54 hellworld*
+-rwxr-xr-x 1 ADMIN 197121 127 Sep  8 11:23 IFSTATEMENT*
+-rwxr-xr-x 1 ADMIN 197121  96 Sep  8 11:27 ifstatement2*
+-rwxr-xr-x 1 ADMIN 197121 129 Sep  8 11:44 ifstatement3*
+-rwxr-xr-x 1 ADMIN 197121  26 Sep  8 10:49 watchDisk*

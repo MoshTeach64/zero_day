@@ -1,23 +1,39 @@
 	.file	"main.c"
-	.def	___main;	.scl	2;	.type	32;	.endef
+	.intel_syntax noprefix
 	.text
-	.globl	_main
-	.def	_main;	.scl	2;	.type	32;	.endef
-_main:
-LFB10:
+	.globl	main
+	.type	main, @function
+main:
+.LFB0:
 	.cfi_startproc
-	pushl	%ebp
-	.cfi_def_cfa_offset 8
-	.cfi_offset 5, -8
-	movl	%esp, %ebp
-	.cfi_def_cfa_register 5
-	andl	$-16, %esp
-	call	___main
-	movl	$0, %eax
-	leave
-	.cfi_restore 5
-	.cfi_def_cfa 4, 4
+	endbr64
+	push	rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	mov	rbp, rsp
+	.cfi_def_cfa_register 6
+	mov	eax, 0
+	pop	rbp
+	.cfi_def_cfa 7, 8
 	ret
 	.cfi_endproc
-LFE10:
-	.ident	"GCC: (MinGW.org GCC-6.3.0-1) 6.3.0"
+.LFE0:
+	.size	main, .-main
+	.ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
+	.section	.note.GNU-stack,"",@progbits
+	.section	.note.gnu.property,"a"
+	.align 8
+	.long	 1f - 0f
+	.long	 4f - 1f
+	.long	 5
+0:
+	.string	 "GNU"
+1:
+	.align 8
+	.long	 0xc0000002
+	.long	 3f - 2f
+2:
+	.long	 0x3
+3:
+	.align 8
+4:

@@ -1,2 +1,2 @@
-#include <stdio.h>
-gcc -c  $CFILE 
+#!/bin/bash
+gcc -c $CFILE

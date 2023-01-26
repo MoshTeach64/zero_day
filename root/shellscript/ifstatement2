@@ -1,0 +1,11 @@
+#!/bin/bash
+
+AGE=37
+
+if [ $AGE = 49 ]
+
+then 
+	echo "My age is 49"
+else 
+	echo "My age is 37"
+fi

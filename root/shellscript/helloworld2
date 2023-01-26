@@ -1,0 +1,11 @@
+#!/bin/bash
+
+NAME="Moshood Ezekiel Odutola"
+
+echo $NAME
+echo $NAME
+echo $NAME
+echo $NAME
+echo $NAME
+echo $NAME
+echo $NAME
